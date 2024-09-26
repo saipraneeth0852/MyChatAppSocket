@@ -1,12 +1,11 @@
-package com.example.chatapp.view
+package com.example.chatapp.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.chatapp.databinding.ActivityMainBinding
 import com.example.chatapp.model.Chat
-import com.example.chatapp.network.SocketHandler
-import com.example.chatapp.view.adapter.ChatAdapter
+import com.example.chatapp.data.SocketHandler
 
 class ChatActivity : AppCompatActivity() {
 

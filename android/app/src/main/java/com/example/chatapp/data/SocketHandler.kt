@@ -1,4 +1,4 @@
-package com.example.chatapp.network
+package com.example.chatapp.data
 
 import android.util.Log
 import androidx.lifecycle.LiveData

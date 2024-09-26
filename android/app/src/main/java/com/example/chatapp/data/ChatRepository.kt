@@ -1,7 +1,6 @@
-package com.example.chatapp.repository
+package com.example.chatapp.data
 
 import androidx.lifecycle.LiveData
-import com.example.chatapp.network.SocketHandler
 import com.example.chatapp.model.Chat
 
 class ChatRepository(private val socketHandler: SocketHandler) {
